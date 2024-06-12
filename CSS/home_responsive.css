@@ -325,7 +325,7 @@
     html{
         font-size: 6px;
     }
-    .banner .banner-img ,.introduce_amitech .intro-img ,.introduce_amitech .partition{
+    .banner .banner-home-img ,.introduce_amitech .intro-img ,.introduce_amitech .partition{
         display: none;
     }
     .banner .content{

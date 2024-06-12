@@ -185,21 +185,28 @@
     }
 }
 @media screen and (max-width:450px){
+    section .banner {
+        height: 40rem;
+    }
+    section .list-img-ami {
+        top:45rem
+    }
     section .list-img-ami .ami-img {
         width: 48%;
         margin-bottom: 2rem;
     }
+
     section .intro-ami {
-        height: 155rem;
+        height: 170rem;
     }
     section .intro-ami .category{
-        top:25rem
+        top:28rem
     }
     section .intro-ami .title_intro{
-        margin-top: 33rem;
+        margin-top: 36rem;
     }
 
     section .intro-ami .content{
-        top:50rem;
+        top:55rem;
     }
 }

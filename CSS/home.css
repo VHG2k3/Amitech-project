@@ -203,7 +203,7 @@ section .banner{
     background: linear-gradient(270deg, #006CE7 42.29%, #0031B8 100%);
     position: relative;
 }
-.banner .banner-img{
+.banner .banner-home-img{
     width: 33%;
     height: 50.2rem;
     position: absolute;
