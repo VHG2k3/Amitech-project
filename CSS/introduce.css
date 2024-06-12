@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto";
+}
+.section-1{
+    position: relative;
+}
+section .list-img-ami{
+    width: 75%;
+    margin-left:12.5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    position: absolute;
+    top:30rem;
+}
+section .list-img-ami .ami-img{
+    width: 24%;
+}
+section .list-img-ami .ami-img img{
+    border-radius: 5px;
+}
+
+/* introduce */
+section .intro-ami{
+    width: 100%;
+    position: relative;
+    height: 100rem;
+}
+
+section .intro-ami .category{
+    position: absolute;
+    top:15rem;
+    left:50%;
+    transform: translate(-50%);
+}
+
+section .intro-ami .background-img-intro{
+    width: 100%;
+    height: 100%;
+}
+section .intro-ami .background-img-intro img{
+    object-fit: cover;
+}
+section .intro-ami .title_intro{
+    margin-top: 15rem;
+}
+section .intro-ami .content{
+    width: 75%;
+    height: 40%;
+    position: absolute;
+    top:30rem;
+    left: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .intro-ami .content p{
+    width: 49%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: justified;
+}
+section .intro-ami .btn-intro{
+    width: 15.3rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: center;
+    color: #FFFFFF;
+    align-content: center;
+
+}
+section .content iframe {
+    width: 49%;
+}
+
+/* Sứ mệnh - Tầm nhìn - Giá trị */
+
+section .views{
+    width: 100%;
+    height: 98rem;
+    position: relative;
+}
+section .views .content_views{
+    width: 75%;
+    position: absolute;
+    top:15rem;
+    left:12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+section .views .content_views .views-img, section .views .content_views .content{
+    width: 49%;
+    margin-bottom: 2rem;
+}
+section .views .content_views .content .gia_tri, .su_menh, .tam_nhin{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.gia_tri_content, .su_menh_content, .tam_nhin_content{
+    width: 86%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+
+}
+section .views .content_views .views-img img{
+    border-radius: 5px;
+
+}
+
+section .views .content_views .content .content_img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5px;
+    background: #006CE7;
+    position: relative;
+}
+section .views .content_views .content .content_img img{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+section .views .content_views .content h4{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #006CE7;
+}
+section .views .content_views .content .gia_tri_content ul li{
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+section .views .content_views .content .gia_tri_content ul li span:first-child{
+    font-weight: 700;
+}
+
+/* Hoạt động */
+section .activity{
+    width: 100%;
+    height: 73.2rem;
+    background: #001A6C;
+    position: relative;
+    margin-top: 6rem;
+}
+section .activity .title_activity{
+    color:#ffffff;
+}
+
+section .activity .carousel-activity{
+    width: 75%;
+    height: 70%;
+    position: absolute;
+    top:20%;
+    left:12.5% 
+}
+
+/* certificate */
+section .certificate{
+    width: 100%;
+    height: 60rem;
+    position:relative;
+}
+
+section .certificate .certificate-carousel{
+    width: 75%;
+    position: absolute;
+    top:25%;
+    left:12.5%;
+    gap:2rem;
+}
+section .certificate .certificate-carousel .item{
+    width: 100%;
+    height: 35rem;
+}
+section .certificate .certificate-carousel .item .img-carousel{
+    width: 100%;
+    height: 70%;
+}
+section .certificate .certificate-carousel .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+section .certificate .certificate-carousel .item > .title{
+    width: 100%;
+    height: 30%;
+    background-color: #666666;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top:2rem;
+    border-radius: 0px 0px 5px 5px;
+}
+section .certificate .certificate-carousel .item .title p{
+    margin-left: 1rem;
+    border-radius: 0px 0px 5px 5px!important;
+}
+section .certificate .owl-dots{
+    display: flex;
+    justify-content: center;
+    
+}
+section .certificate .owl-dots .owl-dot{
+    text-align: center;
+    margin-top: 3%;
+    display: inline-block;
+    height: 1.5rem!important;
+    width: 1.5rem!important;
+    border-radius: 50%;
+    border:1px solid #006CE7;
+    margin:3rem 0.5rem;
+}
+section .certificate .owl-dots .owl-dot:active{
+    background-color: #006CE7;
+}
+
+/* recruitment */
+section .recruitment{
+    width: 100%;
+    height: 76.6rem;
+    position: relative;
+}
+section .recruitment .recruitment-img{
+    width: 100%;
+    height: 100%;
+}
+section .recruitment .list_news_recruitment{
+    width: 75%;
+    position: absolute;
+    top:20%;
+    left: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .recruitment .list_news_recruitment .news_recruitment{
+    width: 49%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 3rem;
+}
+section .recruitment .list_news_recruitment .news_recruitment .recruitment-img{
+    width: 20%;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+section .recruitment .list_news_recruitment .news_recruitment .recruitment-img img{
+    border-radius: 5px;
+}
+section .recruitment .list_news_recruitment .news_recruitment .content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.406rem;
+    text-align: left;
+    margin-top: 1rem;
+    color : #4D4D4DB2;
+}
+section .recruitment .list_news_recruitment .news_recruitment .content h4{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    text-align: left;
+    color: #4D4D4D;
+    margin: 1.5rem 0rem;
+}
+section .recruitment .list_news_recruitment .news_recruitment .content span{
+    color: #4D4D4DB2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+}
+.list_news_recruitment .news_recruitment .content .so_luong, .muc_luong, .date{
+    margin-right: 4.2rem;
+}
+
+.recruitment .btn_recruitment{
+    width: 12.7rem;
+    height: 4rem;
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    background: #006CE7;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: center;
+    align-content: center;
+    color:#ffffff;
+
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 40.1rem;
+    background: #001A6C;
+    position: relative;
+}
+
+footer .footer-position{
+    top:20%
+}
+
+footer .copy{
+    width: 100%;
+    height: 5rem;
+    background-color: #09084D;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .copy p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+    margin-left: 12.5%;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+

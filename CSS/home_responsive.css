@@ -1,0 +1,458 @@
+/* Ressponsive > 1920px */
+@media only screen and (min-width: 1930px) {
+    html{
+        font-size: 11px;
+    }
+    body{
+        width: 100%;
+        align-items: center;
+    }
+    nav ul{
+        width: 120rem;}
+
+    ul li a{
+        font-size: 1.7rem;
+    }
+    .introduce_amitech .title,.solution > .title,.form_register .register .title_form{
+        font-size: 3.2rem;
+    }
+    .title_Roboto{
+        font-size: 3.1rem;
+    }
+    .introduce_amitech .intro,.solution .intro_solution, .equip_product_home .equip_product_content{
+        font-size: 1.65rem;
+    }
+    .introduce_amitech .topic .content_topic1 ul li{
+        font-size: 1.65rem;
+    }
+    .project_home .list_project .project{
+        height: 680px;
+    }
+    .project_home .view_all_project{
+        bottom:3rem;
+    }
+    .news_event .news_content{
+        margin-top: 3.5rem;
+    }
+    .news_event .news_main, .list_news{
+        height: 760px;
+    }
+    .news_event .button_news_event a{
+        margin-top: 89rem;
+    }
+    .footer-position{
+        top:25rem;
+        
+    }
+    .news_event .list_news .news{
+        height: 370px;
+    }
+    .form_register .register .img img{
+        width: 90%;
+        margin-top:1.2rem;
+    }
+}
+
+/* @media only screen and (min-width:1440px){
+    ul li a{
+        font-size: 1.7rem;
+    }
+    .introduce_amitech .title,.solution > .title,.form_register .register .title_form{
+        font-size: 3.2rem;
+    }
+    .title_Roboto{
+        font-size: 3.1rem;
+    }
+    .introduce_amitech .intro,.solution .intro_solution, .equip_product_home .equip_product_content{
+        font-size: 1.65rem;
+    }
+    .introduce_amitech .topic .content_topic1 ul li{
+        font-size: 1.65rem;
+    }
+} */
+/* responsive min-width: 1024px max width: 1760px */
+@media only screen and (min-width: 1440px) and (max-width:1760px){
+    html{
+        font-size: 9px;
+    }
+    header .first .Lien_he{
+        margin-left: 28%;
+    }
+    .app_Name{
+        font-size: 4rem;
+    }
+    nav ul{
+        left: 46.3rem;
+    }
+    .introduce_amitech .topic{
+        left:55%;
+    }
+    .introduce_amitech .button{
+        left: 53%;
+        top:58rem;
+    }
+    .list_solution .solution_1 .content{
+        width: 24rem;
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+    }
+    .solution .all_solution{
+        top:75rem;
+    }
+    .equip_product_home{
+        margin-top: 85rem;
+    }
+    .title_Roboto{
+        font-size: 2.8rem;
+    }
+    .banner .content .title-content {
+        font-size: 5rem;
+    }
+    .equip_product_home .list_equip_product .equip .view_all{
+        margin: 3rem 0rem 0rem 2rem;
+    }
+    .equip_product_home .list_equip_product .equip h4{
+        font-size: 2.8rem;
+    }
+    .equip_product_home .list_equip_product .equip h6 {
+        font-size: 1.8rem;
+    }
+    .equip_product_home{
+        height: 132.3rem;}
+    
+    .news_event .title{
+            font-size: 2rem;
+    }
+    .customer_home{
+        margin-top:0rem;
+    }
+} 
+
+/* responsive <1024 */
+@media only screen and (max-width:1440px){
+    header .first{
+        display: none;
+    }
+    .navbar-icon .menu-icon{
+        display: block;
+        
+    }
+    .navbar-icon .close-icon{
+        display: none;
+    }
+    #check:checked~.navbar-icon #menu-icon{
+        display: none;
+    }
+    #check:checked~.navbar-icon #close-icon{
+        display: block;
+    }
+   
+    nav ul{
+        display: block;
+        background-color: #ffff;
+        left: 0;
+        height: 0rem;
+        top: 8.5rem;
+        width: 100%;
+        box-shadow: 0px 5px 15px 1px #999999;
+        overflow: hidden;
+       transition: 0.3s ease;
+    }
+    #check:checked~ul{
+        height: 35rem;
+    }
+    nav{
+        box-shadow: none;
+    }
+    ul li{
+        width: 100%;
+        margin-top: 2.5rem;
+        text-align: center;
+    }
+    .ml-32{
+        margin-left: 0;
+    }
+    ul li a{
+        width: 100%!important;
+        font-size: 2rem;
+    }
+
+    section .banner{
+        margin-top:10rem;
+    }
+
+    .equip_product_home .list_equip_product .equip_product {
+        width: 32%;
+    }
+    .equip_product_home{
+        height: 180rem;
+    }
+    .equip_product_home .list_equip_product .equip .view_all{
+        margin-top:3rem
+    }
+    .project_home .list_project .project{
+        width: 32%;
+        height: auto;
+        margin-bottom:2.5rem
+    }
+    .project_home .list_project .project ul{
+        display: none;
+    }
+    .project_home .list_project .project p{
+        margin-bottom:5rem;
+    }
+
+    .project_home{
+        height: 120rem;
+    }
+
+    .news_event{
+        height: 210rem;
+    }
+    .news_event .news_main, .list_news{
+        width: 75%;
+        height: auto;
+    }
+    .news_event .list_news{
+        top:105rem;
+    }
+    .news_event .news_content {
+        margin-bottom: 5rem;
+    }
+    .news_event .list_news .title_news{
+        margin-bottom: 5rem;
+    }
+    .news_event .list_news .news{
+        height: auto;
+    }
+    .news_event .button_news_event a{
+        margin-top: 110rem;
+    }
+    .form_register .register .img {
+        bottom:0;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:1023px) and (max-width:1440px){
+    html{
+        font-size: 7px;
+    }
+    .introduce_amitech .topic{
+        left:56%
+    }
+    .introduce_amitech .button {
+        left:54%
+    }
+    .solution .solution_1, .solution_2 {
+        width: 32%;
+    }
+    .equip_product_home {
+        margin-top:135rem;
+    }
+    .solution .all_solution{
+        top:125rem
+    }
+    
+}
+@media only screen and (min-width:700px) and (max-width:1024px){
+    html{
+        font-size: 5px;
+    }
+    .introduce_amitech .topic {
+        left:55%
+    }
+    .introduce_amitech .button{
+        left:52%
+    }
+    .solution .solution_1, .solution_2{
+        width: 45%;
+    }
+    .solution .solution_1, .solution_2 {
+        width: 48%;
+        margin-bottom: 4rem;
+    }
+    .list_solution .solution_1 .content{
+        font-size: 2rem;
+    }
+    .introduce_amitech .intro,.equip_product_home .equip_product_content,.solution .intro_solution{
+        font-size: 2rem;
+    }
+    section .solution{
+        height: 180rem;
+    }
+    .equip_product_home {
+        height: 200rem;
+    }
+    .news_event .list_news {
+        top: 115rem;
+    }
+
+    .news_event {
+        height: 230rem;
+    }
+    .news_event .button_news_event a {
+        margin-top: 125rem;
+    }
+    .form_register .register .img {
+       top:1rem;
+       width: 28%;
+    }
+    .solution .title1, .list_solution .solution_2 .title2{
+        padding:3rem 2rem;
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+    .list_solution .solution_1 .content {
+        font-size: 2.5rem;
+        padding-left: 1.5rem;
+    }
+    .list_solution .solution_1 a{
+        font-size: 2rem;
+        padding: 3rem 2rem;
+    }
+    .solution .all_solution {
+        width: 15rem;
+        height: 6rem;
+        font-size: 2rem; 
+    }
+    .solution .all_solution {
+        top:260rem
+    }
+}
+
+@media only screen and (max-width:700px){
+    html{
+        font-size: 6px;
+    }
+    .banner .banner-img ,.introduce_amitech .intro-img ,.introduce_amitech .partition{
+        display: none;
+    }
+    .banner .content{
+        width: 70%;
+        text-align: center;
+    }
+    .banner .content .content1{
+        width: 100%;
+    }
+    .introduce_amitech .topic ,.introduce_amitech .button{
+        left:12.5%
+    }
+    .introduce_amitech .intro {
+        width: 75%;
+        font-size: 2rem;
+        
+    }
+    .introduce_amitech .title{
+        font-size: 4rem;
+    }
+    .introduce_amitech .topic{
+        top:28rem;
+        font-size: 3rem;
+    }
+    .introduce_amitech .button{
+        top:62rem;
+    }
+    .solution .intro_solution {
+        top: 15rem;
+        font-size: 2rem;
+        
+    }
+    .solution .list_solution{
+        top:30rem
+    }
+    .solution .solution_1, .solution_2{
+        width: 100%;
+    }
+    .solution .all_solution {
+        top:350rem;
+        width: 18rem;
+        height: 6rem;
+        font-size:2rem ;
+    }
+    section .solution{
+        height: 280rem;
+    }
+    .title_Roboto{
+        text-align: center;
+    }
+    .solution > .title{
+        font-size: 4rem;
+    }
+    .equip_product_home .equip_product_content{
+        font-size: 2rem;
+        top:20rem;
+    }
+    .equip_product_home .list_equip_product{
+        top:40rem;
+    }
+    .equip_product_home .list_equip_product .equip_product {
+        width: 100%;
+    }
+    .equip_product_home {
+        height: 530rem;
+    }
+    .project_home .list_project .project{
+        width: 100%;
+    }
+    .project_home {
+        height: 240rem;
+    }
+    .project_home .view_all_project{
+            top:220rem;
+            width: 18rem;
+            height: 6rem;
+            font-size:4rem ;
+        }
+        .news_event .news_main, .list_news {
+            width: 90%;
+            height: auto;
+            left:5%;
+            right: 5%;
+            
+        }
+        .news_event .list_news {
+            top: 70rem;
+        }
+        .news_event .button_news_event a{
+            top:20rem;
+        }
+        .news_event {
+            height: 140rem;
+        }
+        .customer_home .list-customer .customer{
+            width: 32%;
+            margin-bottom: 1rem;
+        }
+        .customer_home{
+            height: 60rem;
+        }
+        .form_register {
+            height: 42rem;
+            top: 36%;
+        }
+        .form_register .register .img{
+            display: none;
+        }
+        .form_register .register .title_form{
+            left: 5%;
+            width: 90%;
+        }
+        .form_register .register form {
+            left:5%;
+            width: 90%;
+        }
+        .form_register .register form >input{
+            width: 100%;
+        }
+        .content_footer {
+            width:70%;
+            left:12.5%;
+            display: block;
+            top:43%;
+        }
+        .home_footer{
+            height: 140rem;
+        }
+}
+

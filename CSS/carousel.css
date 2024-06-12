@@ -1,0 +1,81 @@
+.activity .carousel-activity .owl-carousel {
+    width: 100%;
+    position: relative;
+    /* top:20%;
+    left:12.5% */
+}
+.activity .carousel-activity .owl-carousel .item{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+.activity .carousel-activity .owl-carousel .item img{
+    width: 100%;
+    height: 100%;
+}
+
+.activity .carousel-activity .owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    top:40%;
+    left:2rem;
+}
+.activity .carousel-activity .owl-carousel .owl-nav button{
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #006CE74D;
+    border-radius: 50%;
+}
+.activity .carousel-activity .owl-carousel .owl-nav button:hover{
+    background: #006CE7;
+}
+.activity .carousel-activity .owl-carousel .owl-nav button span{
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.4rem;
+   color: #FFFFFF;
+}
+.activity .carousel-activity .owl-carousel .owl-nav .owl-next{
+    margin-left: 86%;
+}
+
+.carousel-activity .content-carousel{
+    position:absolute;
+    margin-top: 1.5rem;
+    left:33.5%;
+}
+.carousel-activity .content-carousel p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.406rem;
+    text-align: left;
+    color: #FFFFFFB2;
+}
+.carousel-activity .content-carousel h4{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+.carousel-activity .content-carousel > .btn_carousel{
+    padding:1.5rem 3rem;
+    border-radius: 5px;
+    background: #00C2FF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: center;
+    align-items: center;
+    color:#ffffff;
+}
+
+@media (max-width: 1023px){
+    .activity .carousel-activity .owl-carousel .item{
+        width: auto;
+    }
+    
+}
+

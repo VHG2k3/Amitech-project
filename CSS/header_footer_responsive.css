@@ -1,0 +1,135 @@
+@media only screen and (min-width: 2100px){
+    html{
+        font-size: 12px;
+    }
+    header .navbar .nav{
+        gap:3.3rem;
+    }
+    form input {
+        margin-left: 55rem;
+    }
+}
+
+@media only screen and (min-width: 1685px) and (max-width:1890px){
+    header .navbar .nav{
+        gap:3.6rem;
+    }
+    form input {
+        margin-left: 55rem;
+    }
+    header .navbar .nav a{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1685px){
+    header .navbar .nav {
+        gap:3.2rem;
+    }
+    form input {
+        margin-left: 48rem;
+    }
+    header .navbar .nav a{
+        font-size: 1.4rem;
+    }
+
+    owl-nav .owl-next {
+        margin-left:10rem!important;
+    }
+}
+@media only screen and (min-width:1315px) and (max-width:1570px){
+    header .navbar .nav {
+        gap:2.4rem;
+    }
+    form input {
+        margin-left: 30rem;
+    }
+    header .navbar .nav a{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width:1225px) and (max-width:1315px){
+    header .navbar .nav {
+        gap:2rem;
+    }
+    form input {
+        margin-left: 20rem;
+    }
+    header .navbar .nav a{
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-width:1225px){
+     header .first{
+         display: none;
+    }
+    header .navbar .nav a{
+         width: 30%;
+         font-size: 1.4rem;
+    }
+    .navbar .navbar-icon #menu-icon{
+         display: block;
+    }
+    .navbar .navbar-icon #close-icon{
+         display: none;
+    }
+    #check:checked~.navbar-icon #menu-icon{
+     display: none;
+     }
+     #check:checked~.navbar-icon #close-icon{
+         display: block;
+     }
+     header .navbar .nav{
+         height: 0rem;
+         display:flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         background-color: #00258B;
+         position: absolute;
+         left: 0;
+         top:100%;
+         width: 100%;
+         margin-left: 0;
+         overflow: hidden;
+         transition: 0.3s ease;
+        }
+     #check:checked~.nav{
+         height: 20rem;
+     }
+     
+     
+     /* footer */
+     /* footer .col4{
+        display: none;
+     } */
+    .content_footer .address p{
+            width: 30rem;
+    }
+     /* .content_footer p, .row > span{
+        font-size: 1.4rem;
+     } */ 
+     /* .content_footer .col1{
+        width: 40%;
+    } */
+    .content_footer .col1,.col2, .col3, .col4{
+        width: 45%;
+    }
+    
+    footer{
+        height: 70rem;
+    }
+ }
+@media only screen and (min-width:700px) and (max-width:1024px){
+
+}
+
+@media only screen and (max-width:700px){
+    header .navbar .nav a{
+        width: 40%;
+        font-size: 1.4rem;
+   }
+    #check:checked~.nav{
+        height: 30rem;
+    }
+}

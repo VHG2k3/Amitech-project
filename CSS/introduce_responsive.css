@@ -1,0 +1,205 @@
+@media screen and (max-width:1765px){
+    section .banner .content h1 {
+        font-size: 2.8rem;
+    }
+    section .banner .content p{
+        font-size: 1.8rem;
+    }
+    section .category a{
+        font-size: 1.4rem;
+    } 
+    section .intro-ami .content {
+        height: 30%;
+    }
+    section .intro-ami .btn-intro {
+        bottom:8rem
+    }
+}
+
+@media screen and (max-width:1590px){
+    section .intro-ami .category {
+        top:18rem
+    }
+    section .category a{
+        font-size: 1.2rem;
+    }
+    /* section .intro-ami .btn-intro{
+        bottom:5rem
+    }  */
+
+    section .list-img-ami {
+        top:25rem;
+    }
+}
+
+@media screen and (max-width:1410px){
+    section .banner {
+        margin-top: 14rem;
+    }
+    section .banner .content h1 {
+        font-size: 2.5rem;
+    }
+    section .banner .content p{
+        font-size: 1.6rem;
+    }
+    section .intro-ami .category {
+        top:15rem
+    }
+    section .category a{
+        font-size: 1rem;
+    }
+    section .list-img-ami {
+        top:23rem
+    }
+    .list_news_recruitment .news_recruitment .content .so_luong, .muc_luong, .date{
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:1225px){
+    section .intro-ami{
+        height: 120rem;
+    }
+    section .intro-ami .content{
+        height: 60%;
+    }
+    section .content iframe ,section .intro-ami .content p{
+        width: 100%;
+    }
+    section .intro-ami .content p{
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+    section .intro-ami .category {
+        width: 70%;
+    }
+    section .intro-ami .category a{
+        font-size: 1.4rem;
+    }
+
+    /* views */
+    section .views {
+        height: 160rem;
+    }
+    section .views .content_views .views-img, section .views .content_views .content {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /* recruitment  */
+    section .recruitment{
+        height: 130rem;
+    }
+    section .recruitment .list_news_recruitment{
+        top:10%
+    }
+    section .recruitment .list_news_recruitment .news_recruitment{
+        width: 100%;
+    }
+
+    /* banner */
+    section .banner {
+        margin-top: 6rem;
+    }
+    section .banner .content h1 {
+        font-size: 2rem;
+    }
+    section .banner .content p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+    section .banner {
+        height: 30rem;
+    }
+    section .list-img-ami {
+        top: 25rem;
+    }
+    section .intro-ami .category a{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    section .intro-ami .category{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        top:12rem
+    }
+    section .banner .content h1 {
+        font-size: 2rem;
+        margin-bottom: 0.1rem;
+        line-height: 3.8rem;
+    }
+    section .banner .content p{
+        font-size: 1.5rem;
+    }
+    .title_Roboto{
+        top:9rem;
+        font-size: 2rem;
+    }
+    .carousel-activity .content-carousel{
+        left:20%
+    }
+    .carousel-activity .content-carousel h4{
+        font-size: 1.8rem;
+    }
+    section .certificate .certificate-carousel .item > .title{
+        font-size: 1.8rem;
+    }
+    section .views .content_views .content .content_img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width:810px){
+    section .banner {
+        height: 35rem;
+    }
+    section .list-img-ami {
+        top: 32rem;
+    }
+    section .intro-ami .content p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    section .list-img-ami .ami-img {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+    section .intro-ami {
+        height: 155rem;
+    }
+    section .intro-ami .category{
+        top:25rem
+    }
+    section .intro-ami .title_intro{
+        margin-top: 33rem;
+    }
+
+    section .intro-ami .content{
+        top:50rem;
+    }
+}
+@media screen and (max-width:450px){
+    section .list-img-ami .ami-img {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+    section .intro-ami {
+        height: 155rem;
+    }
+    section .intro-ami .category{
+        top:25rem
+    }
+    section .intro-ami .title_intro{
+        margin-top: 33rem;
+    }
+
+    section .intro-ami .content{
+        top:50rem;
+    }
+}
