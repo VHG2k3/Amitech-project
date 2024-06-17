@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+html{
+    font-size: 10px;
+}
+
+section .banner .content{
+    top:52%
+}
+section .banner .content h1{
+    margin-bottom: 8px;
+}
+section .list-project{
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 7.2rem;
+}
+
+section .list-project .project{
+    width: 23.75%;
+    height: 66rem;
+    border-radius: 5px;
+    background: #F1F7FF;
+    margin-bottom: 3.2rem;
+    position: relative;
+}
+section .list-project .project .project-img{
+    width: 100%;
+    height: 25.6rem;
+}
+section .list-project .project .project-img img{
+    border-radius: 5px 5px 0px 0px;
+}
+section .list-project .project .project-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    text-align: justify;
+    color: #4D4D4D;
+    margin: 1.6rem 1.6rem 0.8rem 1.6rem;
+    text-transform: uppercase;
+}
+section .list-project .project ul li{
+    list-style-type: disc;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    text-align: justify;
+    color: #4D4D4DB2;
+    margin: 0rem 1.6rem 1.3rem 3.2rem;
+}
+section .list-project .project ul li span{
+    font-weight: 700;
+}
+
+section .list-project .project a{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: left;
+    position: absolute;
+    left:1.6rem;
+    bottom: 1.6rem;
+    color: #00C2FF;
+}
+
+section .pagination{
+    width: 37.6rem;
+    height: 4rem;
+    margin-top: 3.2rem;
+    margin-bottom:7.2rem;
+    margin-left:77.2rem;
+    display: flex;
+    gap:8px;
+}
+section .pagination .page_number{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    
+}
+section .pagination .page_number p{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 0.9rem;
+}
+section .pagination .page_checked, section .pagination .page_checked p{
+    background: #006CE7!important;
+    color: #FFFFFF!important;
+}

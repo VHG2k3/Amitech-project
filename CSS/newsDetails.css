@@ -30,7 +30,10 @@ section .banner .page_newsDetail_breadcrumb span{
     text-align: left;
    color: #FFFFFF;
 }
+section .banner .page_newsDetail_breadcrumb .last{
+    color: #FFFFFFB2!important;
 
+}
 section .banner .content{
     top:50%
 }
