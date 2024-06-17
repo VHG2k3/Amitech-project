@@ -45,10 +45,11 @@ header .first{
     height: 5rem;
 }
 header .first .Lien_he{
-    width: 46.8rem;
+    width: 51rem;
     height: 2.1rem;
     margin-top: 1.4rem;
-    margin-left: 33.4895%;
+    margin-left: 33%;
+    gap:1.2rem
 }
 header .first .Lien_he .phone, .mail{
     width: 1.4rem;
@@ -56,27 +57,47 @@ header .first .Lien_he .phone, .mail{
     margin-top: 4px;
     color:#FFFFFFCC;
     font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.61rem;
+    text-align: left;
+
 }
-.first .Lien_he .phone_number,.mail-address{
+header .banner-home{
+    margin-top: 13.7rem;
+}
+.first .Lien_he .phone_number_1,.mail-address,.phone_number_2{
+    height: 2.1rem;
+    /* left: 22px; */
     font-size: 1.4rem;
     line-height: 2.1rem;
     color:#FFFFFFCC;
     font-weight: 700;
-    margin-top: 1px;
-    margin-left:0.5rem;
-    margin-right: 1rem;
     font-family: be_vietnam_thin;
+}
+.first .Lien_he .phone_number_1{
+    width: 14.4rem;
+}
+.first .Lien_he .phone_number_1{
+    width: 9rem;
+}
+.first .Lien_he .phone_number_2{
+    width: 12rem;
 }
 .first .dau_cach{
     color:#FFFFFFCC;
-    width: 1.5rem;
-    font-size: 1.6rem;
+    /* width: 1.5px;
+    
+    font-size: 1.6rem; */
+    width: 2px;
+    font-size: 2rem;
+    font-family: be;
+   
 }
 .form, form, input{
     width: 28rem;
 }
 .form{
-    margin-left: 3.3rem;
+    margin-left: 0.5rem;
 }
 input{
    
@@ -112,17 +133,15 @@ header button{
     right:0;
 }
 .first .khac{
-    width: 22.5rem;
+     /* width: 22.5rem;  */
     height: 2.1rem;
     margin-top:1.4rem;
-   margin-left: 3rem;
+    margin-left: 2.5rem;
+    gap:1.2rem;
 }
+
 .first .khac .VN{
     color:#00C2FF;
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-    font-weight: 700;
-    font-family: be_vietnam_thin;
 }
 .first .khac .EN, .lien_he, .tuyen_dung{
     color: #FFFFFFCC;
@@ -131,26 +150,26 @@ header button{
     font-weight: 700;
     font-family: be_vietnam_thin;
 }
-.margin-right{
-    margin-right: 0.5rem;
-}
+
 .app_Name{
     font-family: be_vietnam_ExtraBold;
-    width: 18rem;
-    height: 3.7rem;
-    font-size: 4.52rem;
-    font-weight: 1rem;
-    color:#002A9E;
+    width: 175px;
+    height: 37px;
     margin-top:2.4rem;
     margin-left:12.5%;
 }
 .app_Name .first-child{
-    margin-top:-0.8rem;
+    height: 21.94px;
+    display: flex;
+    justify-content: space-between;
 }
 .app_Name .last-child{
-    font-weight: 700;
-    padding-left: 3.4rem;
-    margin-top: -1.8rem;
+    width: 69px;
+    height: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left:50px;
 }
 nav{
     position:relative;
@@ -163,8 +182,8 @@ nav ul{
     width: 112.7rem;
     height: 2.3rem;
     position:absolute;
-    top:3.2rem;
-    left: 55.3rem;
+    top:3.10rem;
+    right: 12.5%;
     display: flex;
 }
 ul li a{
@@ -177,6 +196,9 @@ ul li a{
 ul .trang_chu a{
     color:#002A9E;
 
+}
+ul li a > i{
+    margin-right: 2.7px;
 }
 #check{
     width: 3rem;
@@ -422,8 +444,8 @@ section .solution{
     top:17.8rem;
 }
 .solution .solution_1, .solution_2{
-    width: 23.25%;
-    margin-bottom: 3rem;
+    width: 23.75%;
+    margin-bottom: 2.4rem;
     border-radius: 10px;
 
 }
@@ -431,7 +453,7 @@ section .solution{
     background: #002A9E;
 }
 .list_solution .title1{
-    width: 60%;
+    width: 65%;
     height: 6rem;
     font-family: be_vietnam_bold;
     font-size: 2rem;
@@ -439,33 +461,32 @@ section .solution{
     line-height: 3rem;
     text-align: left;
     /* margin-left: 2rem; */
-    margin: 2rem 0rem 0rem 3rem;
+    margin: 2rem 3.2rem 0rem 3.2rem;
     color: #00C2FF;
 }
 
 .list_solution .solution_1 .content{
-    width: 90%;
     /* height: 16.8rem; */
     font-family: be_vietnam_thin;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 24px;
-    text-align: justified;
-   color: #FFFFFF;
-   margin-left: 2rem;
+    text-align:justify;
+    color: #FFFFFF;
+    margin: 1rem 3.2rem 2rem 3.2rem;
+    /* letter-spacing: 1px; */
    /* margin: 1.4rem 0rem 1.5rem 3rem; */
 
 }
 .list_solution .solution_1 a{
-    width: 11.1rem;
     height: 2.3rem;
-    font-family: be_vietnam_regular;
+    font-family: be_vietnam_thin;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 2.338rem;
     text-align: left;
     color: #00C2FF;
-    margin-left: 2rem;
+    margin-left: 3.2rem;
     /* margin: 1rem 0rem 0rem 3rem; */
     text-decoration: none;
 }
@@ -477,7 +498,8 @@ section .solution{
 .list_solution .solution_2 .title2{
     position: absolute;
     top:2rem;
-    left:3rem;
+    left:3.2rem;
+    right: 3.2rem;
     font-weight: 800;
     line-height: 3rem;
     text-align: left;
@@ -493,7 +515,6 @@ section .solution{
     width: 13.4rem;
     height: 4.0rem;
     position: absolute;
-    margin-top: 5rem;
     left: 50%;
     transform: translate(-50%);
     border-radius: 5px;
@@ -505,7 +526,7 @@ section .solution{
     text-align: center;
     color: #FFFFFF;
     border: none;
-    top:90rem;
+    top:88rem;
 }
 
 /* customer */
@@ -531,7 +552,7 @@ footer{
 .customer_home .list-customer .customer{
     width: 15.28%;
     height: 10rem;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -611,6 +632,10 @@ footer{
     position: relative;
 }
 
+.home_footer  .footer-position {
+    top:62.5%!important
+}
+
 /* tạo lớp phủ */
 .solution_2 .overlay {
     position: absolute;
@@ -626,3 +651,6 @@ footer{
     border-radius: 10px;
 }
 
+.home_footer .email p{
+    display: none;
+}

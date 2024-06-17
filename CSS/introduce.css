@@ -8,6 +8,7 @@
 }
 section .list-img-ami{
     width: 75%;
+    height: 19.2rem;
     margin-left:12.5%;
     display: flex;
     justify-content:space-between;
@@ -15,7 +16,7 @@ section .list-img-ami{
     flex-wrap: wrap;
     border-radius: 5px;
     position: absolute;
-    top:30rem;
+    top:31rem;
 }
 section .list-img-ami .ami-img{
     width: 24%;
@@ -27,13 +28,14 @@ section .list-img-ami .ami-img img{
 /* introduce */
 section .intro-ami{
     width: 100%;
+    height: 91.7rem!important;
     position: relative;
     height: 100rem;
 }
 
 section .intro-ami .category{
     position: absolute;
-    top:15rem;
+    top:20rem;
     left:50%;
     transform: translate(-50%);
 }
@@ -46,13 +48,13 @@ section .intro-ami .background-img-intro img{
     object-fit: cover;
 }
 section .intro-ami .title_intro{
-    margin-top: 15rem;
+    margin-top: 20.5rem;
 }
 section .intro-ami .content{
     width: 75%;
-    height: 40%;
+    height: 43.42%;
     position: absolute;
-    top:30rem;
+    top:36.5rem;
     left: 12.5%;
     display: flex;
     justify-content: space-between;
@@ -69,7 +71,7 @@ section .intro-ami .btn-intro{
     width: 15.3rem;
     height: 4rem;
     position: absolute;
-    bottom: 10rem;
+    bottom: 7.3rem;
     left: 50%;
     transform: translate(-50%);
     border-radius: 5px;
@@ -190,6 +192,7 @@ section .certificate .certificate-carousel{
 section .certificate .certificate-carousel .item{
     width: 100%;
     height: 35rem;
+    border-radius: 5px;
 }
 section .certificate .certificate-carousel .item .img-carousel{
     width: 100%;
@@ -204,17 +207,22 @@ section .certificate .certificate-carousel .item > .title{
     width: 100%;
     height: 30%;
     background-color: #666666;
-    font-size: 2rem;
-    font-weight: 700;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+}
+section .certificate .certificate-carousel .item .title p{
+    position: absolute;
+    font-size: 1.95rem;
+    font-weight: 650;
     line-height: 3rem;
     text-align: left;
     color: #FFFFFF;
-    padding-top:2rem;
-    border-radius: 0px 0px 5px 5px;
+    top:2rem;
+    left:1rem;
+    
 }
-section .certificate .certificate-carousel .item .title p{
-    margin-left: 1rem;
-    border-radius: 0px 0px 5px 5px!important;
+.upper-text{
+    text-transform: uppercase;
 }
 section .certificate .owl-dots{
     display: flex;
@@ -255,11 +263,11 @@ section .recruitment .list_news_recruitment{
     flex-wrap: wrap;
 }
 section .recruitment .list_news_recruitment .news_recruitment{
-    width: 49%;
+    width: 49.2%;
     background-color: #ffffff;
     border-radius: 5px;
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 2.45rem;
 }
 section .recruitment .list_news_recruitment .news_recruitment .recruitment-img{
     width: 20%;
@@ -274,7 +282,7 @@ section .recruitment .list_news_recruitment .news_recruitment .content p{
     font-weight: 400;
     line-height: 1.406rem;
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     color : #4D4D4DB2;
 }
 section .recruitment .list_news_recruitment .news_recruitment .content h4{
@@ -283,7 +291,7 @@ section .recruitment .list_news_recruitment .news_recruitment .content h4{
     line-height: 2.8rem;
     text-align: left;
     color: #4D4D4D;
-    margin: 1.5rem 0rem;
+    margin: 1.2rem 0rem 0.4rem 0rem;
 }
 section .recruitment .list_news_recruitment .news_recruitment .content span{
     color: #4D4D4DB2;
@@ -292,15 +300,21 @@ section .recruitment .list_news_recruitment .news_recruitment .content span{
     line-height: 2.4rem;
     text-align: left;
 }
-.list_news_recruitment .news_recruitment .content .so_luong, .muc_luong, .date{
-    margin-right: 4.2rem;
+.list_news_recruitment .news_recruitment .content .so_luong, .muc_luong{
+    margin-right: 5.5rem;
 }
+
+.list_news_recruitment .news_recruitment .content .so_luong i,
+ .list_news_recruitment .news_recruitment .content .muc_luong i,
+ .list_news_recruitment .news_recruitment .content .date i{
+    margin-right: 0.6rem;
+ }
 
 .recruitment .btn_recruitment{
     width: 12.7rem;
     height: 4rem;
     position: absolute;
-    bottom: 5rem;
+    bottom: 7rem;
     left: 50%;
     transform: translate(-50%);
     border-radius: 5px;
@@ -315,33 +329,4 @@ section .recruitment .list_news_recruitment .news_recruitment .content span{
 
 }
 
-/* footer */
-footer{
-    width: 100%;
-    height: 40.1rem;
-    background: #001A6C;
-    position: relative;
-}
-
-footer .footer-position{
-    top:20%
-}
-
-footer .copy{
-    width: 100%;
-    height: 5rem;
-    background-color: #09084D;
-    position: absolute;
-    bottom: 0;
-}
-
-footer .copy p{
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-    text-align: left;
-    margin-left: 12.5%;
-    color: #FFFFFF;
-    margin-top: 1rem;
-}
 

@@ -189,7 +189,7 @@
         height: 40rem;
     }
     section .list-img-ami {
-        top:45rem
+        top:43rem
     }
     section .list-img-ami .ami-img {
         width: 48%;
@@ -200,13 +200,13 @@
         height: 170rem;
     }
     section .intro-ami .category{
-        top:28rem
+        top:20rem
     }
     section .intro-ami .title_intro{
-        margin-top: 36rem;
+        margin-top: 40rem;
     }
 
     section .intro-ami .content{
-        top:55rem;
+        top:58rem;
     }
 }

@@ -29,7 +29,10 @@
     height: 64.5rem;
     background: #F4F9FF1A;
     position: relative;
-
+    border-radius: 5px;
+}
+.project_home .list_project .project .project-img img{
+    border-radius: 5px 5px 0px 0px;
 }
 .project_home .list_project .project p{
     width: 95%;
@@ -78,7 +81,7 @@
     width: 12.7rem;
     height: 4rem;
     position: absolute;
-    bottom: 60px;
+    bottom: 6.5rem;
     left: 50%;
     transform: translate(-50%);
     border-radius: 5px;

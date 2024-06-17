@@ -26,9 +26,9 @@
     background: #006CE74D;
     border-radius: 50%;
 }
-.activity .carousel-activity .owl-carousel .owl-nav button:hover{
+/* .activity .carousel-activity .owl-carousel .owl-nav button:hover{
     background: #006CE7;
-}
+} */
 .activity .carousel-activity .owl-carousel .owl-nav button span{
     font-size: 1.4rem;
     font-weight: 900;
@@ -36,7 +36,8 @@
    color: #FFFFFF;
 }
 .activity .carousel-activity .owl-carousel .owl-nav .owl-next{
-    margin-left: 86%;
+    margin-left: 92.5%;
+    background: #006CE7;
 }
 
 .carousel-activity .content-carousel{

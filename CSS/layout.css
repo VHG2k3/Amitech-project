@@ -48,7 +48,7 @@ header{
 section .banner{
     width: 100%;
     position: relative;
-    margin-top: 10rem;
+    margin-top: 14.2rem;
 }
 section .banner .banner-img{
     width: 100%;
@@ -57,7 +57,7 @@ section .banner .banner-img{
 section .banner .content{
     width: 64%;
     position: absolute;
-    top:50%;
+    top:39%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

@@ -38,8 +38,15 @@
 }
 .equip_product_home .list_equip_product .equip_product{
     width: 23.75%;
+    height: 34.6rem;
     border-radius: 5px;
     margin-bottom: 2rem;
+}
+.equip_product_home .list_equip_product .equip_product .background-img{
+    height: 25.6rem;
+}
+.equip_product_home .list_equip_product .equip_product .background-img img{
+    border-radius: 5px 5px 0px 0px;
 }
 .equip_product_home .list_equip_product .equip h4{
     width: 90%;
