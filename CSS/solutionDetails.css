@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+html{
+    font-size: 10px;
+}
+section .banner .content p{
+    font-size: 1.6rem;
+}
+section .banner .content h1 {
+    margin-bottom: 1.2rem;
+}
+section .banner .page_solutionDetail_breadcrumb{
+    position: absolute;
+    top:1.6rem;
+    left:12.5%
+}
+
+section .banner .page_solutionDetail_breadcrumb a,
+section .banner .page_solutionDetail_breadcrumb span{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+section .banner .content{
+    top:50%
+}
+
+.general{
+    width: 100%;
+    height: 75.5rem;
+    position: relative;
+}
+.general p, .general .general_video,.general .general_button {
+     position: absolute;
+     left:50%;
+     transform: translate(-50%);
+     color: #4D4D4D;
+     text-align: center;
+}
+
+.general p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    top:12.3rem;
+    font-family: "Roboto Condensed";
+}
+
+.general .general_video{
+    top:20.6rem;
+    width: 72rem;
+    height: 40.5rem;
+}
+.general .general_video iframe{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.general .general_button {
+    top:64.3rem;
+}
+.general .general_button .btn_advise,
+.general .general_button .btn_download{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: left;
+    color: #FFFFFF;
+    padding:1rem 1.6rem;
+    border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.general .general_button .btn_advise{
+    background: #006CE7;
+    margin-right: 1.6rem;
+}
+.general .general_button .btn_download{
+    background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+}
+
+.project_main .project_carousel .carousel-item img{
+    border-radius: 5px;
+}
+
+/* feature */
+section .feature{
+    width: 100%;
+    height: 61.9rem;
+    background-image: url("../images/solutionDetails/feature_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+section .feature .feature_content{
+    position: absolute;
+    top:13.9rem;
+    left:12.5%;
+}
+section .feature .feature_content ul li{
+    list-style-type:decimal;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: left;
+    color: #006CE7;
+}
+section .feature .feature_content ul li p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    text-align: left;
+    color: #4D4D4D;
+    margin: 1.2rem -2rem;
+    font-family: "Roboto Condensed"!important;
+}
+.feature .feature-img{
+    position: absolute;
+    top:13.9rem;
+    right: 12.5%;
+}
+ .feature .feature-img .frame_computer{
+    width: 70.8rem;
+    height: 41rem;
+    position: relative;
+}
+.feature .feature-img .frame_computer .feature_carousel{
+    position: absolute;
+    top:1.2799rem;
+    left:5.1rem;
+}
+
+.carousel-item{
+    height: 35.875rem;
+}
+
+.carousel-item img{
+    border-radius: 5px;
+}
+
+section .feature .feature-img .feature_carousel{
+    width: 60.539rem!important;
+    height: 35.875rem!important;
+
+}
+.carousel-control-next, .carousel-control-prev  {
+    width: 3.2rem!important;
+    height: 3.2rem;
+    border-radius: 50%;
+    top: 50%!important;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.4rem;
+    opacity: 1!important;
+    margin: 0rem -3.4rem !important;
+    
+}
+.carousel-control-prev {
+    background: #006CE74D!important;
+}
+.carousel-control-next{
+    background: #006CE7!important;
+}
+
+section .benefit{
+    width: 100%;
+    height: 57rem;
+    position: relative;
+}
+
+section .benefit .benefit-content{
+    width: 75%;
+    position: absolute;
+    top:13.4rem;
+    left:12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .benefit .benefit-content .benefit-img,
+section .benefit .benefit-content ul
+{
+    width: 49.2%;
+}
+section .benefit .benefit-content .benefit-img img{
+    width: 79.66%;
+    margin-left: 7.183rem;
+}
+section .benefit .benefit-content ul li{
+    list-style-type: decimal;
+    font-family: "Roboto Condensed";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+/* cấu hình hệ thống */
+section .system-model{
+    width: 100%;
+    height: 76.9rem;
+    position: relative;
+    background: #F4F9FF;
+}
+section .system-model .system-model-img{
+    position: absolute;
+    top:13.7rem;
+    left:50%;
+    transform: translate(-50%);
+    width: 45.73%;
+}
+section .system-model .system-model-img img{
+    width: 100%;
+}
+
+/* khách hàng */
+.customer_home{
+    width: 100%;
+    height: 31.1rem;
+    position: relative;
+}
+.customer_home .list-customer{
+    width: 49.8%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:13.9rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.customer_home .list-customer .customer{
+    width: 23.12%;
+    height: 10rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+}
+
+/* giải pháp khác */
+section .orther-solution{
+    width: 100%;
+    height: 75.8rem;
+    background-image: url("../images/solutionDetails/feature_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+section .orther-solution .list_project{
+    width: 75%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top:15rem;
+    left:12.5%;
+}
+section .orther-solution .list_project .project{
+    width: 23.75%;
+    height: 54rem;
+    background: #F4F9FF;
+    position: relative;
+    border-radius: 5px;
+}
+section .orther-solution .list_project .project .project-img img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+section .orther-solution .list_project .project .project-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: left;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    margin: 1.6rem 1.6rem 0rem 1.6rem;
+}
+section .orther-solution .list_project .project p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: justify;
+    margin: 0.8rem 1.6rem;
+    color: #4D4D4DB2;
+
+}
+
+ .list_project .project a{
+    width: 11rem;
+    height: 1.9rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: left;
+    color: #00C2FF;
+    border: none;
+    position: absolute;
+    bottom:2rem;
+    left:2rem;
+    text-decoration: none;
+}
+.list_project .project a i{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.2rem;
+    text-align: left;
+}

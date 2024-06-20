@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+html{
+    font-size: 10px;
+}
+section .banner .content{
+    top:52%
+}
+section .banner .content h1{
+    margin-bottom: 8px;
+}
+
+.list_solution{
+    width: 75%;
+    margin-top: 7.2rem;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.solution{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
+}
+.solution .solution_img, .solution .solution_content{
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 3.2rem;
+    background: #F4F9FF;
+}
+.solution .solution_img img{
+    border-radius: 5px;
+}
+.solution .solution_content .solution_content_title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.516rem;
+    text-align: left;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    margin: 3.2rem 3.2rem 0.8rem 3.2rem;
+}
+.solution .solution_content p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+   color: #4D4D4DB2;
+   margin: 0rem 3.2rem 1.6rem 3.2rem;
+}
+.solution .solution_content a{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    text-align: left;
+   color: #00C2FF;
+   margin: 0rem 3.2rem 0rem 3.2rem;
+}
+.solution .solution_content a i{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.2rem;
+    text-align: left;
+}
+
+section .pagination{
+    width: 8.8rem;
+    height: 4rem;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    display: flex;
+    gap:8px;
+}
+section .pagination .page_number{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    
+}
+section .pagination .page_number p{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 0.9rem;
+}
+section .pagination .page_checked, section .pagination .page_checked p{
+    background: #006CE7!important;
+    color: #FFFFFF!important;
+}
+
+section{
+    margin-bottom: 11.2rem;
+}

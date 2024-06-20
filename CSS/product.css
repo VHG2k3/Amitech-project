@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+html{
+    font-size: 10px;
+}
+section .banner .content h1{
+    margin-bottom: 0.8rem;
+}
+section .banner .content{
+    top:49%;
+}
+section .content-product{
+    position: relative;
+
+}
+
+section .content-product .category{
+    position: absolute;
+    top:7.2rem;
+    left:50%;
+    transform: translate(-50%);
+}
+section .content-product .category .check{
+    background: #006CE7;
+    color: #FFFFFF;
+
+}
+.equip_product_home{
+    background-image: none;
+    margin-top: 0rem;
+}
+
+.equip_product_home .list_equip_product {
+    top:16rem
+}
+.equip_product_home .list_equip_product .equip_product{
+    background: #F6F6F6;
+    margin-bottom: 3.2rem;
+    height: auto;
+}
+.equip_product_home .list_equip_product .equip_product .background-img{
+    overflow: hidden;
+}
+.bg1{
+    background: #666666;
+    width: 100%;
+    height: 11.2rem;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.equip_product_home .list_equip_product .equip_product div .product-type{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.406rem;
+    text-align: left;
+    color: #FFFFFFB2;
+    text-transform: uppercase;
+    padding: 1.6rem 0rem 0.8rem 1.6rem;
+}
+.list_equip_product .product div p{
+    padding: 1.6rem 0rem 0.8rem 1.6rem;
+}
+.list_equip_product .product div .title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: left;
+   color: #f31919;
+   padding: 0rem 1.6rem 0.8rem 1.6rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.equip_product_home .list_equip_product{
+    justify-content: left;
+
+}
+.ml-24{
+    margin-left: 2.4rem;
+}
+
+section .pagination{
+    width: 8.8rem;
+    height: 4rem;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    display: flex;
+    gap:8px;
+}
+section .pagination .page_number{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    
+}
+section .pagination .page_number p{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.344rem;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 0.9rem;
+}
+section .pagination .page_checked, section .pagination .page_checked p{
+    background: #006CE7!important;
+    color: #FFFFFF!important;
+}
+
+section{
+    margin-bottom: 11.2rem;
+}
