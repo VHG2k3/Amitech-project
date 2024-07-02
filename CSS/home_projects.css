@@ -7,9 +7,8 @@
     text-decoration: none;
 }
 .project_home{
-    height: 93.9rem;
+    /* height: 93.9rem; */
     background: #001A6C;
-    position: relative;
 
 }
 .project_home .title_project{
@@ -17,88 +16,90 @@
 }
 .project_home .list_project{
     width: 75%;
-    position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    top:15rem;
-    left:12.5%;
+    margin-left:12.5%;
+    margin-top: 3.2rem;
 }
 .project_home .list_project .project{
     width: 23.75%;
-    height: 64.5rem;
+    min-height: 64.5rem;
+    max-height: 80rem;
     background: #F4F9FF1A;
-    position: relative;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.project_home .list_project .project .project-img{
+    position: relative;
+}
+.project_home .list_project .project .project-img:after{
+    content: "";
+    display: block;
+    padding-top:74.8538011%;
 }
 .project_home .list_project .project .project-img img{
     border-radius: 5px 5px 0px 0px;
+    position: absolute;
 }
 .project_home .list_project .project p{
-    width: 95%;
     font-family: "Roboto";
     font-size: 1.85rem;
     font-weight: 700;
     line-height: 3rem;
     color: #FFFFFF;
     text-transform: uppercase;
-    margin: 0.5rem 0px 1rem 1rem;
+    margin: 1.6rem 1.6rem 0.8rem 1.6rem;
 }
 .project_home .list_project .project ul{
-    padding: 0px 2rem 0px 3.5rem;
+    margin-left: 3.6rem;
+    margin-right: 1.6rem;
+    flex-grow: 1;
 }
 .project_home .list_project .project ul li{
+    display: list-item!important;
+    list-style-position:outside;
+    overflow: visible;
     list-style-type: disc;
-    width: 100%;
     color: #FFFFFFB2;
     font-family: "Roboto";
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 2.3rem;
-    text-align: left;
-    padding-right: 2rem;
     margin-bottom: 1rem;
+   
 }
+
 .project_home .list_project .project ul li span{
     font-weight: 400;
 }
 .project_home .list_project .project a{
-    width: 11rem;
-    height: 1.9rem;
     font-family: "Roboto";
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 18.75px;
     text-align: left;
     color: #00C2FF;
-    border: none;
-    position: absolute;
-    bottom:2rem;
-    left:2rem;
-
+    margin-left: 1.6rem;
+    margin-bottom: 1.6rem;
 }
 .project_home .view_all_project{
-    width: 12.7rem;
-    height: 4rem;
-    position: absolute;
-    bottom: 6.5rem;
-    left: 50%;
-    transform: translate(-50%);
-    border-radius: 5px;
-    background: #00C2FF;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3.2rem;
+    padding-bottom: 8.3rem;
 }
+
 .project_home .view_all_project > a{
-    width: 10rem;
-    height: 1.9rem;
     font-family: "Roboto";
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.875rem;
     text-align: center;
     color: #FFFFFF;
-
-
+    padding:1rem 1.6rem;
+    border-radius: 5px;
+    background: #00C2FF;
 }

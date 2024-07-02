@@ -19,14 +19,19 @@ header .first .first-img{
     height: 4.3rem;
     margin-left: 12.5%!important;
 }
+form input:focus{
+   outline:none; 
+}
 form input{
-    width: 32.3rem;
+    width: 31.1rem;
     height: 3.2rem;
     margin-left: 65rem;
     border-radius: 5px;
     border: 0.5px solid #FFFFFF;
     background-color: #00258B;
     margin-top: 0.5rem;
+    padding-left: 1.2rem;
+    color: #FFFFFF80;
 }
 ::placeholder{
     font-family: "Roboto";
@@ -98,7 +103,10 @@ header .navbar .nav{
     display: flex;
     gap:4.8rem;
 }
-header .navbar .nav a{
+header .navbar .nav .nav-item{
+    padding-top:2.4rem
+}
+header .navbar .nav .nav-item a{
     font-family: "Roboto";
     font-size: 1.6rem;
     font-weight: 700;
@@ -106,7 +114,7 @@ header .navbar .nav a{
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding-top:2.4rem;
+    cursor: pointer;
 }
 header .navbar input{
     width: 3rem;
@@ -122,5 +130,57 @@ header .navbar input, .navbar-icon{
 header .navbar .navbar-icon .menu-icon,header .navbar .navbar-icon .close-icon{
     display: none;
 }
+
+/* dropdown */
+.nav .dropdown{
+    position: relative;
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+.menu{
+    list-style: none;
+    /* border: 1px #363a43 solid; */
+
+    border-radius: 5px;
+    position: absolute;
+    left:0;
+    top:5.5rem;
+    display: block;
+    width: 100%;
+    background: #002A9E;
+    min-height: 12rem;
+    max-height: 100rem;
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    
+}
+.menu li{
+    font-family: be_vietnam_ExtraBold;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.338rem;
+    color:#ffffff;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: rgba(233, 230, 230, 0.123);
+}
+
+.active{
+    background-color:rgba(224, 223, 223, 0.457);
+}
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+
+
 
 

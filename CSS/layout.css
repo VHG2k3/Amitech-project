@@ -23,18 +23,14 @@ html{
     width: 1920px;
 }
 .title_Roboto{
-    height: 35px;
-    position: absolute;
-    top:8rem;
-    left: 50%;
-    transform: translate(-50%);
     font-family: "Roboto";
     font-size: 3rem;
     font-weight: 900;
     line-height: 3.516rem;
     color: #4D4D4D;
     text-transform: uppercase;
-
+    text-align: center;
+    padding-top: 7.2rem;
 }
 
 header{
@@ -109,6 +105,34 @@ section .category a{
     position: relative;
 }
 
-.title_Roboto{
-    top:7.2rem
+.fa-angles-right{
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.2rem;
+    text-align: left;
+
+}
+.give-ellipsis.after-1-lines {
+    -webkit-line-clamp: 1;
+}
+.give-ellipsis.after-2-lines {
+    -webkit-line-clamp: 2;
+}
+.give-ellipsis.after-3-lines {
+    -webkit-line-clamp: 3;
+}
+.give-ellipsis.after-5-lines {
+    -webkit-line-clamp: 5;
+}
+.give-ellipsis.after-4-lines {
+    -webkit-line-clamp: 4;
+}
+.give-ellipsis.after-7-lines {
+    -webkit-line-clamp: 7;
+}
+.give-ellipsis {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
 }

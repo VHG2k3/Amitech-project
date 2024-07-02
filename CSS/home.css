@@ -62,9 +62,9 @@ header .first .Lien_he .phone, .mail{
     text-align: left;
 
 }
-header .banner-home{
+/* header .banner-home{
     margin-top: 13.7rem;
-}
+} */
 .first .Lien_he .phone_number_1,.mail-address,.phone_number_2{
     height: 2.1rem;
     /* left: 22px; */
@@ -94,13 +94,17 @@ header .banner-home{
    
 }
 .form, form, input{
-    width: 28rem;
+    width: 26.8rem;
 }
 .form{
     margin-left: 0.5rem;
 }
+input:focus{
+    outline: none;
+}
 input{
-   
+    color: #FFFFFF80;
+    padding-left: 1.2rem;
     height: 2.8rem;
     margin-top: 1.1rem;
     border: none;
@@ -130,7 +134,7 @@ form{
 header button{
     position: absolute;
     top:0;
-    right:0;
+    right:-1.18rem;
 }
 .first .khac{
      /* width: 22.5rem;  */
@@ -185,6 +189,7 @@ nav ul{
     top:3.10rem;
     right: 12.5%;
     display: flex;
+    justify-content: right;
 }
 ul li a{
     font-family: be_vietnam_ExtraBold;
@@ -192,6 +197,7 @@ ul li a{
     font-weight: 700;
     line-height: 2.338rem;
     color:#152D5280;
+    cursor: pointer;
 }
 ul .trang_chu a{
     color:#002A9E;
@@ -199,6 +205,7 @@ ul .trang_chu a{
 }
 ul li a > i{
     margin-right: 2.7px;
+    transition: 0.3s;
 }
 #check{
     width: 3rem;
@@ -217,31 +224,76 @@ ul li a > i{
     cursor: pointer;
 }
 
-/* banner */
-section .banner{
-    width: 100%;
-    height: 60rem;
-    margin-top:12rem;
-    background: linear-gradient(270deg, #006CE7 42.29%, #0031B8 100%);
+/* dropdown */
+.nav .dropdown{
     position: relative;
 }
-.banner .banner-home-img{
-    width: 33%;
-    height: 50.2rem;
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+.menu{
+    list-style: none;
+    border: 1px #363a43 solid;
+
+    border-radius: 5px;
     position: absolute;
-    right:15%;
-    top:10%;
+    left:0;
+    top:5.5rem;
+    display: block;
+    width: 100%;
+    background-color: white;
+    min-height: 12rem;
+    max-height: 100rem;
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    
 }
-.banner .content{
-    width: 58.6rem;
-    height: 22.6rem;
-    position:absolute;
-    left:12.5%;
-    top:25%;
+.menu li{
+    font-family: be_vietnam_ExtraBold;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.338rem;
+    color:#152D5280;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
 }
-.banner .content .title-content{
-    width: 41.9rem;
-    height: 7rem;
+.menu li:hover{
+    background-color: rgb(233, 230, 230);
+}
+
+.active{
+    background-color:rgb(224, 223, 223);
+}
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+
+
+/* banner */
+section .banner-home{
+    width: 100%;
+    margin-top:12rem;
+    background: linear-gradient(270deg, #006CE7 42.29%, #0031B8 100%);
+    display: flex;
+    gap:10.1rem;
+}
+.banner-home .banner-home-img{
+    width: 33.02083333%;
+    margin: 4.9rem 0rem;
+}
+.banner-home .content{
+    width: 30.5208333%;
+    margin-left:12.5%;
+    margin-top: 15.7rem;
+  
+}
+.banner-home .content .title-content{
     font-family: be_vietnam_ExtraBold;
     font-size: 5.6rem;
     font-weight: 800;
@@ -249,10 +301,9 @@ section .banner{
     text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 1.2rem;
 }
-.banner .content .content1{
-    width: 58.6rem;
-    height: 14.4rem;
+.banner-home .content .content1{
     font-family: be_vietnam_thin;
     font-size: 2.4rem;
     font-weight: 400;
@@ -260,30 +311,19 @@ section .banner{
     text-align: left;
     color:#FFFFFF99;
 }
-/* introduce_amitech */
+
 .section{
     position: relative;
 }
 section .introduce_amitech{
-    height: 75.5rem;
-    background-image: url("../images/home/image 77.png");
-    position: relative;
-    background-position: bottom left;
+    background: url("../images/home/image 77.png") no-repeat center;
+    background-size: cover;
+  
 }
-.introduce_amitech .intro-img{
-    width: 31.25%;
-    height: auto;
-    top:20rem;
-    left: 12.5%;
 
-}
 .introduce_amitech .title{
     width: 100%;
-    height: 4.4rem;
-    top:6rem;
-    position:absolute;
-    left: 50%;
-    transform: translate( -50%); 
+    margin-top: 7.2rem;
     font-family: be_vietnam_ExtraBold;
     font-size: 3rem;
     font-weight: 800;
@@ -292,50 +332,60 @@ section .introduce_amitech{
     color:#4D4D4D;
 }
 .introduce_amitech .intro{
-    width: 93rem;
-    height: 4.6rem;
-    position: absolute;
-    top:12rem;
-    position:absolute;
-    left: 50%;
-    transform: translate( -50%); 
+   padding: 0rem 23.95833333%;
     font-family: be_vietnam_regular;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
     text-align: center;
     color: #4D4D4D;
+    margin-top: 1.2rem;
+}
+.introduce_amitech .intro_content{
+    display: flex;
+    width: 75%;
+    margin-left: 12.5%;
+    padding-bottom: 7.2rem;
+    margin-top: 3.2rem;
 }
 .introduce_amitech .intro .Ami{ 
     font-weight: 900;
 }
 .introduce_amitech .intro-img{
+   width: 41.666666666%;
+   position: relative;
+}
+.introduce_amitech .intro-img:after{
+    content:"";
+    display: block;
+    padding-top:80.5%;
+}
+.introduce_amitech .intro-img img{
     position: absolute;
-    left: 12.5%;
+    object-fit: cover;
 }
 .introduce_amitech .partition{
-    width: 40rem;
-    rotate: 90deg;
-    position: absolute;
-    top:42rem;
-    left:40%;
+    width: 9.1666666%;
+    height: 25.3rem;
+    border-right: 0.1rem solid #002A9E66;
+    position: relative;
 }
 .introduce_amitech .partition_1{
-    width: 5rem;
-    border: 5px solid #002A9E;
-}
-.introduce_amitech .partition_2{
-    width: 25.3rem;
-    height: 0rem;
-    border: 0.1rem solid #002A9E66;
+    width: 1rem;
+    height: 6rem;
+    background-color: #002A9E;
     position: absolute;
-    
+    top:0;
+    right:-1rem;
 }
-.introduce_amitech .topic{
-    width: 48rem;
-    position: absolute;
-    left: 52%;
-    top:23rem;
+
+.introduce_amitech .intro_content .topic_content{
+    width: 47.7083333%;
+   
+}
+.introduce_amitech .intro_content .topic_content .topic{
+    margin-left: 2.4rem;
+    margin-top: 1rem;
 }
 .introduce_amitech .topic .tp{
     font-family: be_vietnam_ExtraBold;
@@ -344,14 +394,29 @@ section .introduce_amitech{
     line-height: 2.922rem;
     text-align: left;
     color: #152D5280;
+    cursor: pointer;
 
 }
 .introduce_amitech .topic .topic_1{
     font-weight: 800!important;
     color: #002A9E;
+    transition: 0.2s;
+}
+.topic_color_check{
+    color: #002A9E!important;
+}
+.topic_color_uncheck{
+    color: #152D5280!important;
 }
 .introduce_amitech .topic .content_topic1{
     margin-top: 1rem;
+    transition: 0.2s;
+    display: block;
+    opacity: 1;
+}
+.content_topic_uncheck{
+    display: none!important;
+    opacity: 0!important;
 }
 .introduce_amitech .topic .content_topic1 ul li{
     font-family: be_vietnam_regular;
@@ -366,19 +431,15 @@ section .introduce_amitech{
 }
 .introduce_amitech .topic .topic_2, .topic_3{
     margin-top: 2.3rem;
+    transition: 0.2s;
 }
 
-.introduce_amitech .button{
-    /* width: 33.1rem; */
-    height: 4rem;
-    position: absolute;
-    left: 50%;
-    top:54rem;
+.introduce_amitech .topic_content .button{
+    margin-top: 7.2rem;
     border-radius: 5px 0px 0px 0px;
 }
-.introduce_amitech .button .btn_1{
-    width: 14.2rem;
-    height: 4rem;
+.introduce_amitech .button .btn_1, .introduce_amitech .button .btn_2{
+    padding:0.8rem 1.6rem;
     border:none;
     border-radius: 5px;
     background: #006CE7;
@@ -389,84 +450,65 @@ section .introduce_amitech{
     text-align: center;
    color: #FFFFFF;
    margin-right: 1.1rem;
+   cursor: pointer;
 }
 .introduce_amitech .button .btn_2{
-    width: 17.3rem;
-    height: 4rem;
-    border-radius: 5px;
     background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
-    font-family: be_vietnam_thin;
-    font-size: 1.6rem;
-    font-weight: 700;
-    line-height: 2.338rem;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
 }
 /* solution */
 section .solution{
-    position:relative;
-    /* height: 8rem; */
+    display: flex;
+    flex-direction: column;
 }
 .solution > .title{
-    height: 4.4rem;
-    position: absolute;
-    top: 6rem;
-    left: 50%;
-    transform: translate(-50%);
     font-family: be_vietnam_ExtraBold;
     font-size: 3rem;
     font-weight: 800;
     line-height: 4.383rem;
     text-align: center;
     color: #4D4D4D;
+    margin-top: 7.2rem;
 }
 .solution .intro_solution{
-    position: absolute;
-    top: 12rem;
-    left: 50%;
-    transform: translate(-50%);
     font-family: be_vietnam_regular;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 2.4rem;
     text-align: center;
     color: #4D4D4D;
+    margin-top: 1.2rem;
+    padding: 0rem 23%;
 }
 .solution .list_solution{
     width: 75%;
-    height: auto;
-    position: absolute;
-    left: 12.5%;
+    margin-left: 12.5%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top:17.8rem;
+    flex-grow: 1;
+    margin-top: 3.2rem;
 }
 .solution .solution_1, .solution_2{
     width: 23.75%;
     margin-bottom: 2.4rem;
     border-radius: 10px;
-
 }
 .solution .solution_1{
     background: #002A9E;
+    display: flex;
+    flex-direction: column;
 }
 .list_solution .title1{
-    width: 65%;
-    height: 6rem;
     font-family: be_vietnam_bold;
     font-size: 2rem;
     font-weight: 800;
     line-height: 3rem;
     text-align: left;
-    /* margin-left: 2rem; */
     margin: 2rem 3.2rem 0rem 3.2rem;
     color: #00C2FF;
 }
 
 .list_solution .solution_1 .content{
-    /* height: 16.8rem; */
     font-family: be_vietnam_thin;
     font-size: 1.6rem;
     font-weight: 400;
@@ -474,12 +516,9 @@ section .solution{
     text-align:justify;
     color: #FFFFFF;
     margin: 1rem 3.2rem 2rem 3.2rem;
-    /* letter-spacing: 1px; */
-   /* margin: 1.4rem 0rem 1.5rem 3rem; */
-
+    flex-grow: 1;
 }
 .list_solution .solution_1 a{
-    height: 2.3rem;
     font-family: be_vietnam_thin;
     font-size: 1.6rem;
     font-weight: 700;
@@ -487,14 +526,13 @@ section .solution{
     text-align: left;
     color: #00C2FF;
     margin-left: 3.2rem;
-    /* margin: 1rem 0rem 0rem 3rem; */
+    margin-bottom: 1.9rem;
     text-decoration: none;
 }
 
 .list_solution .solution_2{
     position: relative;
 }
-
 .list_solution .solution_2 .title2{
     position: absolute;
     top:2rem;
@@ -506,17 +544,34 @@ section .solution{
     font-family: be_vietnam_bold;
     font-size: 2rem;
     color: #FFFF;
+    transition: 0.2s;
+}
+.list_solution .solution_2 .title2:hover{
+    color: #00C2FF;
+}
+.list_solution .solution_2 .img-solution{
+    position: relative;
 
+}
+.list_solution .solution_2 .img-solution:after{
+    content:"";
+    display: block;
+    padding-top:100%;
 }
 .list_solution .solution_2 img{
     border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 .solution .all_solution{
-    width: 13.4rem;
-    height: 4.0rem;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7.2rem;
+}
+.solution .all_solution .btn_view_all{
+    padding: 0.8rem 1.6rem;
     border-radius: 5px;
     background: #006CE7;
     font-family: be_vietnam_thin;
@@ -525,38 +580,40 @@ section .solution{
     line-height: 23.38px;
     text-align: center;
     color: #FFFFFF;
-    border: none;
-    top:88rem;
 }
 
 /* customer */
 footer{
     position: relative;
+    height: auto;
 }
 .customer_home{
-    height: 53.9rem;
     background: #E5ECF6;
-    position: relative;
-    margin-top: 2rem;
 }
 
 .customer_home .list-customer{
     width: 75%;
-    position: absolute;
-    left:12.5%;
-    top:15rem;
+    margin-left:12.5%;
+    margin-top:3.2rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 30rem;
 }
 .customer_home .list-customer .customer{
     width: 15.28%;
     height: 10rem;
     border-radius: 5px;
     background: #FFFFFF;
+    cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.customer_home .list-customer .customer img{
+    object-fit: cover; 
 }
 
 /* form-register */
@@ -564,52 +621,48 @@ footer{
 
 .form_register{
     width: 75%;
-    height: 45.1rem;
+    min-height: 45.1rem;
     border-radius: 1rem;
     background: linear-gradient(360deg, #006CE7 0%, #0E349C 100%);
     position: absolute;
     top:32rem;
     left:12.5%;
+    display: flex;
+    gap:10%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
 
+}
+.form_register  .img{
+    width: 23.680555%;
+    margin-left: 16.875%;
+    margin-top: 2.8rem;
 }
 .form_register .register{
-    position: relative;
-}
-
-.form_register .register .img{
-    width: 23.68%;
-    position: absolute;
-    left: 16.875%;
-    top: 2.8rem;
+    width: 29.1666666%;
 }
 
 .form_register .register .title_form{
-    width: 29.86%;
-    height: 3.5rem;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.516rem;
     text-align: left;
     color:#FFFFFF;
-    position: absolute;
-    top:5rem;
-    left:50%;
-    
+    margin-top:5rem;
+ 
 }
 .form_register .register form{
-    position: absolute;
-    top:10rem;
-    left:50%;
+    width: 100%;
 }
 .form_register .register form >input{
-    width: 41.6rem;
+    width: 100%;
     height: 4rem;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 1px solid #FFFFFF;
     background: linear-gradient(360deg, #006CE7 0%, #0E349C 100%);
-
 
 }
 .form_register .register form >button{
@@ -627,9 +680,11 @@ footer{
     color: #FFFFFF;
 }
 .home_footer{
-    height: 50.1rem;
+    min-height: 50.1rem;
+    max-height: 100rem;
     background: #001A6C;
     position: relative;
+    overflow: hidden;
 }
 
 .home_footer  .footer-position {
@@ -654,3 +709,4 @@ footer{
 .home_footer .email p{
     display: none;
 }
+
